@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HR_Login</title>
+<meta charset="utf-8">
+<meta name="login" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ 
+<script type="text/javascript" src="hr_login.js"></script>
+<style>
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+body {
+	background-color: #0F6FA1;
+}
+
+
+
+#hiddenfld {
+	display: none;
+}
+
+div.p-text {
+	font-size: 11px;
+	color: white;
+}
+</style>
+</head>
+<body>
+	{{form:tag}} {{form:info}} {{form:script}} 
+	<div id="hiddenfld">{{emit:loginbtn}}{{emit:message}}  </div>
+	<!-- <div id="unamelistdd">{{emit:usernamedd}}</div> -->
+	<div id="log-alert-box"></div>
+	<div align="center" style="margin-top: 3%">
+		<img src="phr.jpg">
+	</div>
+	<!-- <div id="msg"
+		style="margin-left: 53%; margin-top: 1%; position: fixed; color: #9b2235;">{{emit:message}}</div> -->
+	<div class="container">
+		<div id="loginbox" style="margin-left: 28%; width: 500px;">
+			<div class="panel panel-info" style="margin-bottom:2px;">
+				<div class="panel-heading">
+					<div class="panel-title" style="font-size: 30px">
+						<b>Sign In</b>
+					</div>
+				</div>
+
+				<div style="padding-top: 30px;" class="panel-body">
+
+					<div style="display: none" id="login-alert"
+						class="alert alert-danger col-sm-12"></div>
+
+					<form id="loginform" class="form-horizontal" role="form">
+
+						<div style="margin-bottom: 25px;" class="input-group">
+
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-user"></i></span> {{emit:username}}
+
+						</div>
+
+						<div style="margin-bottom: 25px;" class="input-group">
+
+							<span class="input-group-addon"><i
+								class="glyphicon glyphicon-lock"></i></span> {{emit:password}}
+
+						</div>
+
+
+						<div style="margin-top: 10%" class="form-group">
+							<!-- Button -->
+
+							<div class="center-block text-center">
+
+								<a id="btn-login" onclick="login()" href="#"
+									class="btn btn-primary" style="width: 100px"><b> Sign
+										in</b></a> <a id="btn-reset" onclick="resett()" href="#"
+									class="btn btn-default" style="width: 100px"><b>Reset</b></a>
+
+							</div>
+						</div>
+						<div style="float: left; font-size: 80%; position: relative;">
+							<a href="mailto:support@prolifics.com?Subject=Login Help"><b>Forgot
+									username/password?</a></b>
+						</div>
+					</form>
+
+
+
+				</div>
+			</div>
+			<div class="p-text">
+				<p class="simple-text" align="center">© Prolifics 2018</p>
+				<p class="simple-text" align="center">
+					All Rights Reserved.<a
+						href="https://prolifics.com/company/privacy-policy"
+						style="color: white;"><u> Privacy And Terms</u></a>
+				</p>
+			</div>
+</div>
+		</div>
+
+		<div class="footer">
+			<img align="right" src="logo_light.jpg">
+		</div>
+		{{form:script}}
+</body>
+</html>
