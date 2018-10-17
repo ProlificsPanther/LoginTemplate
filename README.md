@@ -1,5 +1,11 @@
 # LoginTemplate
-This is a simple template enabling you how to start working with Panther Web. This repo consists of three files
+This is a simple template enabling you how to start working with Panther Web. 
+
+# Pre-Requisites
+  * Panther Servlet
+  * ini file for the app
+  
+# This repo consists of three files
   * login
   * hr_login.html
   * hr_login.js
