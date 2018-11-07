@@ -1,20 +1,20 @@
 # LoginTemplate
-This is a simple template enabling you how to start working with Panther Web. 
+This simple HTML Template will help you get started on  designing your Login screen for your Panther Web Application. 
 
 # Pre-Requisites
-  * Panther Servlet
-  * ini file for the app
+  * Panther Servlet /Apache
+  * Panther ini file for the Panther Web application
   
-# This repo consists of three files
-  * login
+# This repository consists of 3 files
+  * login  Panther screen
   * hr_login.html
   * hr_login.js
   
 # Login
-This is the jam screen that can get you started with Panther Web.
+This is the Panther  login  screen  
 
 # Hr_login.html
-This is the HTML template that we have attached with the screen to make it look the way you see in the demo.
+This is the HTML template that we have attached to Login Panther screen .
 
 # Hr_login.js
 The javascript requirements like the message popovers, hidden button clicks are coded in here.
