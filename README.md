@@ -1,5 +1,5 @@
 # LoginTemplate
-This simple HTML Template will help you get started on  designing your Login screen for your Panther Web Application. 
+This simple HTML Template will help you get started with designing your Login screen for your Panther Web Application. 
 
 # Pre-Requisites
   * Panther Servlet /Apache
