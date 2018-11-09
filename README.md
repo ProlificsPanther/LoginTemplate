@@ -10,7 +10,7 @@ This simple HTML Template will help you get started on designing your Login scre
   * hr_login.html
   * hr_login.js
   
-# Login
+# Login screen
 Panther  login  screen  containing username and password fields
 
 # Hr_login.html
