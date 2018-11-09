@@ -1,9 +1,9 @@
 # LoginTemplate
-This simple HTML Template will help you get started with designing your Login screen for your Panther Web Application. 
+This simple HTML Template will help you get started on designing your Login screen for your Panther Web Application. 
 
 # Pre-Requisites
-  * Panther Servlet /Apache
-  * Panther ini file for the Panther Web application
+  * Panther Servlet / Apache Web Server
+  * Panther Web ini file
   
 # This repository consists of 3 files
   * login  Panther screen
@@ -11,16 +11,16 @@ This simple HTML Template will help you get started with designing your Login sc
   * hr_login.js
   
 # Login
-This is the Panther  login  screen  
+Panther  login  screen  containing username and password fields
 
 # Hr_login.html
-This is the HTML template that we have attached to Login Panther screen .
+HTML template that is attached to the Panther Login screen .
 
 # Hr_login.js
-The javascript requirements like the message popovers, hidden button clicks are coded in here.
+Javascript file containing requirements like the message popovers, hidden button clicks .
 
-URL to Panther Human Resource App: http://10.0.10.176:8087/Hr_App/login
+URL to Panther Human Resource App: http://10.0.10.176:8087/Hr_App/login . The first scren in this application uses the login screen and template
 
-Credentials: Cust/Pass
+Credentials to login to the application are : Cust/Pass
 
 For further queries: support@prolifics.com
