@@ -23,6 +23,6 @@ URL to Panther Human Resource App: http://10.0.10.176:81/Hr_App/login . The firs
 
 Credentials to login to the application are : Cust/Pass
 
-Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/panther/)
+Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther)
 
 Contact support@prolifics.com for a 45 day license included.
