@@ -1,8 +1,9 @@
 # LoginTemplate
 This simple HTML Template will help you get started on designing your Login screen for your Panther Web Application. 
 
-# Pre-Requisites
+# Prerequisites
   * Panther Servlet / Apache Web Server
+  * Panther Web 5.5*
   * Panther Web ini file
   
 # This repository consists of 3 files
@@ -19,10 +20,8 @@ HTML template that is attached to the Panther Login screen .
 # Hr_login.js
 Javascript file containing requirements like the message popovers, hidden button clicks .
 
-URL to Panther Human Resource App: http://10.0.10.176:81/Hr_App/login . The first screen in this application uses the login screen and template.
-
-Credentials to login to the application are : Cust/Pass
-
 Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther)
 
-Contact support@prolifics.com for a 45 day license included.
+Contact support@prolifics.com for a 45 day license.
+
+How to setup a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
