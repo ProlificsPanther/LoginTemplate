@@ -1,31 +1,5 @@
 $(function(){
-	//alert("");
-	$("#unamelistdd").dialog({
-		autoOpen  : false,
-		show: 'blind',
-		hide: 'blind',
-		height:300,
-		width: 600,
-		modal: true,
-		resizable: false,
-		draggable: false,
-		title:"Remove Scout",
-		buttons: {
-			
-			"Cancel": function() {
-				$("#unamelistdd").dialog('close');
-			}
-		}
-	});
 	
-	$("input[name='i_1_username']").keypress(function(event){
-		var x =  event.keyCode;
-	    if(x==112){
-	    	//alert("f1 pressed")
-	    	$("#unamelistdd").dialog('open');
-	    	
-	    }
-	});
 	$("#log-alert-box").dialog({
 		autoOpen  : false,
 	    modal: true,
@@ -57,18 +31,7 @@ $(function(){
 	}
     $("input[name='i_1_username']").val("");
     $("input[name='i_1_password']").val("");
-    $('[data-toggle="popover"]').popover(); 
-   
-	
-    
-
-    $("#unamelistdd").on('change', function() {
-    	//alert("ON change");
-    	var name = $("#unamelistdd select[name='son_usernamedd'] option:selected").val();
-    	//alert(name);
-    	$("input[name='i_1_username']").val(name);
-    	$("#unamelistdd").dialog('close');
-    });
+    $('[data-toggle="popover"]').popover();
     
 	
 });
@@ -104,11 +67,6 @@ else
 {
 	$("input[name='spi_1_loginbtn']").click(); 
 }
-
-
- 
-
-
 				 
 }
 
