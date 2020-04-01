@@ -18,7 +18,7 @@ Panther  login  screen  containing username and password fields
 HTML template that is attached to the Panther Login screen .
 
 # Hr_login.js
-Javascript file containing requirements like the message popovers, hidden button clicks .
+Javascript file containing requirements like the message popovers, hidden button clicks, validations for authentication .
 
 Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
 
