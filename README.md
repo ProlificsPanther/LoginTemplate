@@ -1,6 +1,8 @@
 # LoginTemplate
 A simple HTML Template to help get you get started on designing your Panther Web Login screen,
 
+![] login.PNG
+
 # Prerequisites
   * Panther Servlet / Apache Web Server
   * Panther Web 5.5*
