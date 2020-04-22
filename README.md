@@ -1,7 +1,7 @@
 # LoginTemplateV2
 A simple HTML Template to help you get started with  designing your Responsive Panther Web Login screen. Below is the screenshot of the completed Login screen in the Brower.Bootstrap libraries were used to transform the plan screen into a modern, responsive screen. JPL validation and SQL functionality remain the same. Some of the JPL was rewritten in Javascript.
 
-![](login.PNG)
+![](login.png)
 
 
 # Prerequisites
