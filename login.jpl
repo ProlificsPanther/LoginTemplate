@@ -1,0 +1,36 @@
+proc validate_login()
+
+{
+
+
+				vars match(2)
+
+ 				if (username == "" || password == "")
+						  {
+				msg emsg "Please enter username/password"
+				check = 1
+						  }
+else
+   {
+				dbms alias match
+				dbms sql select COUNT(*) from employee where last_name = :+username and password=:+password
+				dbms alias
+				if (match==0)
+				{
+				msg emsg " Invalid username /password. Try again"
+				call sm_cl_unprot()
+
+				check = 2
+				 }
+				else
+				{
+
+
+				check = 3
+				call sm_jform("test_master")
+
+				}
+
+   }
+
+ }
