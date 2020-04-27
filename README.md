@@ -3,7 +3,7 @@ A simple HTML template to help get you to get started with designing your Panthe
 
 # What this repository contains
 This repository contains two branches ; LoginTemplateV1 and LoginTemplateV2. LoginTemplateV1 is based on a simple Bootstrap 3 and LoginTemplateV2 is based on Bootstrap 4. Switch branches to view/download  details.
-To access each branch,  click "Branches" on the above table head which will be present on the left.
+To access each branch,  click the  "Branch"  pulldown menu on the upper left corner.
 
 
 ![](LoginTemplate.PNG)
