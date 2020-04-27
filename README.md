@@ -7,9 +7,10 @@ This repository contains two branches ; LoginTemplate1 and LoginTemplate2. Login
 
 ![](BranchInfo.png)
 
+Template1
+
 ![](Template1.png)
 
-                 Template1
 
 
 
