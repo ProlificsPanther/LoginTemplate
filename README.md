@@ -7,18 +7,13 @@ This repository contains two branches ; LoginTemplate1 and LoginTemplate2. Login
 
 ![](BranchInfo.png)
 
-Template1
-
 ![](Template1.png)
 
-Template2
+  Template1
 
-![](Template2.PNG)
+
 
        
-     
-
-
 Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
 
 [Click Here](https://www.prolifics.com/panther-trial-license-request) for a 45 day license.
