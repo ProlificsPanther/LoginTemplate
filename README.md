@@ -3,3 +3,7 @@ A simple HTML template to help get you to get started with designing your Panthe
 
 # What this repository contains
 This repository contains two branches named as V1 and V2. V1 is based on a simple Bootstrap 3 and V2 is based on Bootstrap 4. Switch branches to get the details.
+How to reach different branches
+
+
+![](LoginTemplate.PNG)
