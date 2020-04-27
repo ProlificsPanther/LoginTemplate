@@ -9,16 +9,16 @@ See screenshot of the Login screen, click on login.png.
     
 # This repository consists of 3 files
   * Panther screen name login
-  * hr_login.html
-  * hr_login.js
+  * HrLogin.html
+  * HrLogin.js
   
 # Login screen
 Panther  login  screen  contains username and password fields
 
-# Hr_login.html
+# HrLogin.html
 HTML template  is attached to the Panther Login screen via property  WEB OPTION->HTML OPTIONs->HTML Template .
 
-# Hr_login.js
+# HrLogin.js
 Javascript file contains requirements like the message alerts, hidden button clicks, validations for authentication etc.
 
 Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
